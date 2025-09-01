@@ -1,0 +1,151 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi", "Hello", "Hey", "Hi there", 
+          "Good morning", "Good afternoon", "Good evening",
+          "Howdy", "What's up?", "Greetings", "Yo!"
+        ],
+        "responses": [
+          "Hello! How can I help you today?",
+          "Hi there! What can I do for you?",
+          "Greetings! Ask me anything about our services."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye", "Goodbye", "See you later", 
+          "I'm leaving", "Take care", "Farewell",
+          "Catch you later", "Signing off"
+        ],
+        "responses": [
+          "Goodbye! Come back soon.",
+          "Have a great day!",
+          "See you next time!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks", "Thank you", "Thanks a lot", 
+          "Appreciate it", "Much obliged", "Cheers",
+          "You're awesome", "I owe you one"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Happy to help!",
+          "Anytime!"
+        ]
+      },
+      {
+        "tag": "about",
+        "patterns": [
+          "Tell me about your platform",
+          "Who are you?",
+          "Describe your services",
+          "What do you offer?"
+        ],
+        "responses": [
+          "We provide industry-recognized certifications in cutting-edge technologies."
+        ]
+      },
+      {
+        "tag": "courses",
+        "patterns": [
+          "What courses do you have?",
+          "List your programs",
+          "Learning options",
+          "What can I study?",
+          "Popular courses"
+        ],
+        "responses": [
+          "We offer: 1. Data Science 2. AI & ML 3. Cyber Security 4. Cloud Computing 5. Digital Marketing",
+          "Top courses: AWS Certification, PMP, Data Scientist Master's Program"
+        ]
+      },
+      {
+        "tag": "pricing",
+        "patterns": [
+          "How much does it cost?",
+          "Course fees",
+          "Pricing details",
+          "Is it expensive?",
+          "Payment options"
+        ],
+        "responses": [
+          "Prices vary by course. Visit our website for detailed pricing.",
+          "We offer flexible payment plans. Check our 'Pricing' page."
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "How to reach you?",
+          "Contact number",
+          "Email address",
+          "Support details",
+          "Help desk"
+        ],
+        "responses": [
+          "Call: +1-123-456-7890 | Email: support@simplilearn.com",
+          "Reach us at: 24/7 Live Chat on our website"
+        ]
+      },
+      {
+        "tag": "careers",
+        "patterns": [
+          "Are you hiring?",
+          "Job openings",
+          "Work with you",
+          "Career opportunities"
+        ],
+        "responses": [
+          "Check our 'Careers' page for current openings!",
+          "We're always looking for talent. Email resumes to careers@simplilearn.com"
+        ]
+      },
+      {
+        "tag": "technical_issue",
+        "patterns": [
+          "The website is down",
+          "I can't login",
+          "Page not loading",
+          "Error message",
+          "Bug report"
+        ],
+        "responses": [
+          "Sorry for the trouble! Our team is fixing it. Try again in 10 mins.",
+          "Please email support@simplilearn.com with screenshot of the error."
+        ]
+      },
+      {
+        "tag": "complaint",
+        "patterns": [
+          "Poor service",
+          "I'm not satisfied",
+          "This is unacceptable",
+          "Want to complain",
+          "Very disappointed"
+        ],
+        "responses": [
+          "We apologize. Let me connect you to our manager.",
+          "Your feedback matters. Email complaints@simplilearn.com for resolution."
+        ]
+      },
+      {
+        "tag": "fun",
+        "patterns": [
+          "Tell me a joke",
+          "Make me laugh",
+          "You're boring",
+          "Say something funny"
+        ],
+        "responses": [
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "I'm not a regular bot... I'm a cool bot! 😎"
+        ]
+      }
+    ]
+  }
